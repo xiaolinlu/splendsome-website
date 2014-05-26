@@ -1,4 +1,6 @@
 if (Meteor.isClient) {
+  require('splendsome');
+
   Template.hello.greeting = function () {
     return "Welcome to splendsome-website.";
   };
