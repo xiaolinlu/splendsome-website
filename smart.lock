@@ -3,7 +3,8 @@
   "dependencies": {
     "basePackages": {
       "ngMeteor": {},
-      "famono": {}
+      "famono": {},
+      "splendsome": {}
     },
     "packages": {
       "ngMeteor": {
@@ -15,6 +16,11 @@
         "git": "https://github.com/raix/Meteor-famono.git",
         "tag": "v0.2.2",
         "commit": "33439a1a1ba001772a2d2b26db1825875ba64f90"
+      },
+      "splendsome": {
+        "git": "https://github.com/Splendsome/meteor-famous-angular.git",
+        "tag": "v0.0.12",
+        "commit": "56b8fd1c0917639901d89c9e31d7c054abfc66cf"
       }
     }
   }

@@ -1,6 +1,7 @@
 {
   "packages": {
     "ngMeteor": {},
-    "famono": {}
+    "famono": {},
+    "splendsome": {}
   }
 }
