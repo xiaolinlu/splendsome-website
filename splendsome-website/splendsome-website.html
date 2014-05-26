@@ -1,0 +1,21 @@
+<head>
+  <title>Famo.us + Angular + Meteor = Splendsome</title>
+</head>
+
+<body>
+  {{> main}}
+</body>
+
+<template name="main">
+  <div fa-app ng-controller="appController" class="fa-app">
+    {{> logo }}
+  </div>
+</template>
+
+<template name="logo">
+  <fa-modifier fa-origin="[[ logo.origin ]]" class="logo">
+    <fa-surface fa-size="[240, 240]">
+      <img src="Splendsome_Logo.png" class="clickable" fa-click="surprise()" />
+    </fa-surface>
+  </fa-modifier>
+</template>

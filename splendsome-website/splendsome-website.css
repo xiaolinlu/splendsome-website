@@ -1,0 +1,9 @@
+/* CSS declarations go here */
+.fa-app {
+  height: 100%;
+  width: 100%;
+}
+
+.clickable {
+  cursor: pointer;
+}
